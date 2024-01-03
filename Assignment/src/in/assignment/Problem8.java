@@ -20,7 +20,7 @@ public class Problem8 {
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
 		boolean result = Problem8.isPrime(num);
-		if(result) {
+		if(result==true) {
 			System.out.println(num+" is prime number");
 		}else {
 			System.out.println(num+" is not prime number");
