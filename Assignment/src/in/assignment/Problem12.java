@@ -2,7 +2,7 @@ package in.assignment;
 
 import java.util.Scanner;
 
-// Prime Numbers in an interval
+// Prime Numbers in an Interval
 public class Problem12 {
 
 	public static void main(String[] args) {

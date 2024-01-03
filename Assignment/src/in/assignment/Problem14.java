@@ -2,7 +2,7 @@ package in.assignment;
 
 import java.util.Scanner;
 
-// Finding the Armstrong numbers in an interval
+// Finding the Armstrong numbers in an Interval
 public class Problem14 {
 
 	public static void main(String[] args) {

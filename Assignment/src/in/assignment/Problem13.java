@@ -2,7 +2,7 @@ package in.assignment;
 
 import java.util.Scanner;
 
-// Whether number is Armstrong or not
+// Whether Number is Armstrong or not
 public class Problem13 {
 	public static void isArmstrong(int num) {
 		int n=num;
