@@ -26,7 +26,12 @@ public class Problem14 {
 			while(num1>0) {
 				int rem=num1%10;
 				num1=num1/10;
-				sum = (int)(sum+Math.pow(rem, digits));
+				
+				int r=1;
+				for(int j=1; j<=digits; j++) {
+					r=r*rem;
+				}
+				sum=sum+r;
 			}
 			if(i==sum) {
 				System.out.print(i+" ");

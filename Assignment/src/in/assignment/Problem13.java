@@ -17,7 +17,12 @@ public class Problem13 {
 		while(n1>0) {
 			int rem=n1%10;
 			n1=n1/10;
-			sum = (int)(sum+Math.pow(rem, digits));
+			
+			int r=1;
+			for(int i=1; i<=digits; i++) {
+				r=r*rem;
+			}
+			sum=sum+r;
 		}
 		if(num==sum) {
 			System.out.println(num+" is Armstrong number");
